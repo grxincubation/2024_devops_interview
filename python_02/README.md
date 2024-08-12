@@ -2,6 +2,7 @@ requirements
 - python lambda/script running in account 12345 as "dev_ops" role  
 - needs to access cloudwatch tags in account 98765  
 - needs to assume "dev_ops" role in account 98765  
+
 notes:  
 - do not taint the iam of the oringal method running in 12345
 - return to account 12345 with the tags from account 98765
